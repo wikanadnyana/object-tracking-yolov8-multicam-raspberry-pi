@@ -17,3 +17,10 @@ sudo apt install python3-pyqt5
 ```
 '/usr/local/lib/python3.11/dist-packages/cv2/qt/plugins/platforms'
 ```
+
+4. when install packages sometimes show the problem about <code>externally-managed-environment</code> :
+
+```
+sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
+sudo pip3 install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+```
